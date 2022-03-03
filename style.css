@@ -1,0 +1,67 @@
+body{
+    font-family: 'Stint Ultra Condensed', cursive;
+    margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+.highlight{
+    color: orange;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.link{
+    background-color: orange;
+    padding: 5px;
+    text-decoration: none;
+    margin: 0;
+
+}
+.Exprence{
+    background-image: url("./img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#baby{
+    border-left: 7px solid black;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#baby1{
+    border-left: 7px solid black;
+    border-image: linear-gradient(orange, blue);
+    border-image-slice: 1;
+}
+.ex{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    margin-top: 100px;
+}
+.xz{
+    height: 172px;
+}
+#px{
+    margin-top: 100px;
+}
+@media only screen and (max-width: 657px) {
+.Exprence{
+
+    width: 100%;
+    float: left;
+}
+.ex{
+   
+    float: left;
+}
+}
+@media only screen and (max-width: 494px) {
+   .mm{
+    float: left;
+    margin-top: 300px;
+   }
+    }
